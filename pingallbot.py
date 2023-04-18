@@ -56,7 +56,7 @@ async def everyone(client, message):
           i = 0
           lenMembersList = len(membersList)
           if stopProcess: stopProcess = False
-          mbuff=4
+          mbuff=4 # 4 tags a la ves maximo permitido por tg actualmente
           while len(membersList) > 0 and not stopProcess :
             j = 0
             text1 = f"{inputText}\n\n"
